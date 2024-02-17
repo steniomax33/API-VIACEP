@@ -1,0 +1,26 @@
+
+#container-maior{
+    background: rgb(102, 38, 36);
+    text-align: center;
+    margin-top: 100px;
+    max-height: 100%;
+
+
+}
+#resultado {
+    padding: 1;
+    margin-top: 10px ;
+    background-color: aquamarine;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 2px 2px black;
+    font-size: 35px;
+
+}
+
+#botao {
+    cursor: pointer;
+    border-radius: 60px;
+    box-shadow: 1px 1px black;
+    background: rgb(199, 00, 00);
+}
