@@ -21,10 +21,11 @@ function mostrarEndereço(dados) {
     if (dados.erro) {
         resultado.innerHTML = "Não foi possível localizar endereço!"
     } else {
-        resultado.innerHTML = `<p>Endereço: ${dados.logradouro}</p>
-                           <p>Complemento: ${dados.complemento}</p>
-                           <p>Bairro: ${dados.bairro}</p>
-                           <p>Cidade: ${dados.localidade} - ${dados.uf}</p>
-                           <p>DDD: ${dados.ddd}</p>`
+        resultado.innerHTML = `<p>CEP: ${dados.cep}</p>
+                               <p>Endereço: ${dados.logradouro}</p>
+                               <p>Complemento: ${dados.complemento}</p>
+                               <p>Bairro: ${dados.bairro}</p>
+                               <p>Cidade: ${dados.localidade} - ${dados.uf}</p>
+                               <p>DDD: ${dados.ddd}</p>`
     }                        
 }

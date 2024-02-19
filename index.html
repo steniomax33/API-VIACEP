@@ -7,15 +7,20 @@
     <title>API VIA CEP</title>
     <script type="text/javascript" src="index.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
     <div id="container-maior">
         <H1>Buscando endereço ViaCep</H1>
-        <label id="text-label">Digite seu CEP</label>
-        <input type="number" placeholder="Digite aqui" id="cep">
-        <button onclick="consultarEndereço()" id="botao">Consultar:</button>
+        <label id="text-label"> Digite seu CEP
+            <div class="input-wrapper">
+                <input type="text" placeholder="Digite aqui" autocomplete="street-address" autofocus id="cep">
+                <i onclick="consultarEndereço()" class="fa fa-search"></i>
+            </div>
+        </label>
 
+        
         <div id="resultado">
             <p>Seu resultado aqui</p>
         </div>
