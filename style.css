@@ -10,8 +10,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(#303012, #212246);
-
+    background: url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
 }
 
 h1 {
@@ -26,13 +26,7 @@ h1 {
     font-size: 35px;
     font-weight: 25px;
     color: #fff;
-
-
 }
-
-
-
-
 
 @keyframes aniTitle {
     from {
